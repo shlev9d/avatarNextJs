@@ -1,0 +1,18 @@
+.refreshBtn {
+  margin-bottom: 64px;
+  padding: 8px 76px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #02cc67;
+  border-radius: 3px;
+  border: none;
+}
+
+.refreshBtn:hover {
+  background: #2a8859;
+}
+
+.refreshBtn:disabled {
+  background: #2a8859;
+  cursor: not-allowed;
+}
