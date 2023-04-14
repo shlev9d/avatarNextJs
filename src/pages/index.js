@@ -87,6 +87,9 @@ export default function Home({avatars}) {
 }
 
 export async function getServerSideProps(){
+  try{
   const avatars = await getAvatars()
   return {props:{avatars}}
-}
+} catch{
+  return {props: []}
+}}
