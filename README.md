@@ -10,4 +10,5 @@ or
 ### `yarn dev` - run the app in the localhost  
 #
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.  
+demo-live [Avatar NextJs](https://avatar-next-js.vercel.app/)
