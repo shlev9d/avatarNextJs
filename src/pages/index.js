@@ -31,8 +31,8 @@ export default function Home({avatars}) {
     if (user) {
       const newUsers = [...users];
       newUsers[idx] = user[0];
+      setUsers(newUsers);
     }
-    setUsers(newUsers);
   };
 
   return (
